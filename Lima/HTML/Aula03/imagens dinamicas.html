@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 400)" srcset="m3 e46 p.jpg">
+        <img src="img/m3 e46 p.jpg" alt="A imagem flexível funciona">
+
+        <source media="(max-width: 800)" srcset="m3 e46 m.jpg">
+        <img src="img/m3 e46 m.jpg" alt="A imagem flexível funciona">
+
+        <source media="(max-width: 400)" srcset="m3 e46 g.jpg">
+        <img src="img/m3 e46 g.jpg" alt="A imagem flexível funciona">
+    </picture>
+</body>
+</html>
