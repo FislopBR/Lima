@@ -1,0 +1,32 @@
+️ Descrição da Atividade: Loja de Produtos (Estilo 2025)
+
+Título da Página: Vitrine 2025: Moda, Essência e Estilo em Alta Definição
+
+Objetivo: Criar uma página web que simula uma loja virtual de produtosvariados — incluindo roupas, perfumes, bolsas, acessórios e instrumentos —
+com uma estética moderna e elegante, alinhada às tendências de design de
+2025. A proposta é oferecer uma experiência imersiva e funcional,
+utilizando recursos visuais avançados como microinterações, animações
+suaves, tipografia limpa e paleta de cores sofisticadas.
+
+🧩 Estrutura da Atividade
+
+1. HTML (estrutura da página)
+● Título da página: Vitrine 2025: Moda, Essência e Estilo em Alta
+Definição
+● Cabeçalho com introdução: texto breve apresentando a loja, com
+destaque para inovação e estilo
+● Galeria de produtos: carousel com imagem em alta resolução, nome
+do produto, categoria, preço e descrição
+● Rodapé: com links adicionais, redes sociais, newsletter e créditos
+● Carrinho de Compras: Página de compras e check-out de pedidos
+
+2. CSS (formatação visual)
+● Fonte moderna e legível: como Inter, Poppins ou Space Grotesk
+● Paleta de cores sofisticada: tons neutros com detalhes em dourado,
+azul petróleo, verde oliva ou lilás suave
+● Micro Interações e animações suaves: efeitos de hover com
+transições elegantes e feedback visual
+● Layout responsivo e fluido: adaptável a todos os dispositivos, com
+navegação intuitiva e menus expansíveis
+● Ícones minimalistas e vetoriais: para categorias, carrinho, busca e
+redes sociais

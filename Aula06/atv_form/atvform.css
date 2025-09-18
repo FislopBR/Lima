@@ -1,0 +1,208 @@
+/* Centralização dos botões principais */
+.central-btn {
+	display: flex;
+	justify-content: center;
+	margin: 2rem 0;
+}
+button {
+	font-family: 'Poppins', Arial, sans-serif;
+	font-size: 1rem;
+	padding: 0.7rem 2rem;
+	border-radius: 24px;
+	border: none;
+	background: #d4af37;
+	color: #fff;
+	font-weight: 600;
+	box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+	cursor: pointer;
+	transition: background 0.3s, transform 0.3s;
+}
+button:hover {
+	background: white;
+    color: #d4af37;
+	transform: scale(1.05);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+	font-family: 'Poppins', Arial, sans-serif;
+	background: #f6f6f8;
+	color: #222;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background: linear-gradient(90deg, #eaeaea 60%, #d4af37 100%);
+	color: #222;
+	padding: 2rem 1rem 1rem 1rem;
+	text-align: center;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.header h1 {
+	font-size: 2.2rem;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	letter-spacing: 1px;
+}
+
+.intro {
+	font-size: 1.1rem;
+	color: #555;
+	margin-bottom: 1rem;
+}
+
+.main-nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.main-nav a {
+	color: #222;
+	text-decoration: none;
+	font-weight: 600;
+	padding: 0.5rem 1rem;
+	border-radius: 20px;
+	transition: background 0.3s, color 0.3s;
+}
+.main-nav a:hover {
+	background: #d4af37;
+	color: #fff;
+}
+
+.produtos {
+	max-width: 1200px;
+	margin: 2rem auto;
+	padding: 0 1rem;
+}
+.carousel {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2rem;
+}
+.produto {
+	background: #fff;
+	border-radius: 18px;
+	box-shadow: 0 4px 24px rgba(44,62,80,0.08);
+	padding: 1.5rem;
+	text-align: center;
+	transition: transform 0.3s, box-shadow 0.3s;
+	position: relative;
+}
+.produto:hover {
+	transform: translateY(-8px) scale(1.03);
+	box-shadow: 0 8px 32px rgba(44,62,80,0.16);
+}
+.produto img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 12px;
+	margin-bottom: 1rem;
+	box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+}
+.produto h3 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin: 0.5rem 0;
+}
+.categoria {
+	color: #006d77;
+	font-size: 1rem;
+	margin-bottom: 0.2rem;
+}
+.preco {
+	color: #d4af37;
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+.produto p {
+	color: #555;
+	font-size: 0.98rem;
+	margin-bottom: 0.5rem;
+}
+
+.carrinho {
+	background: #f0f4f8;
+	border-radius: 18px;
+	max-width: 600px;
+	margin: 2rem auto;
+	padding: 2rem 1rem;
+	box-shadow: 0 2px 12px rgba(44,62,80,0.08);
+}
+.carrinho h2 {
+	color: #222;
+	font-size: 1.3rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+.carrinho-lista p {
+	color: #555;
+	font-size: 1rem;
+}
+
+.footer {
+	background: linear-gradient(90deg, #eaeaea 60%, #d4af37 100%);
+	color: #000000;
+	padding: 2rem 1rem 1rem 1rem;
+	text-align: center;
+	margin-top: 3rem;
+}
+.newsletter h3 {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+.newsletter input[type="email"] {
+	padding: 0.5rem 1rem;
+	border-radius: 20px;
+	border: none;
+	margin-right: 0.5rem;
+	font-size: 1rem;
+	outline: none;
+	box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+	transition: box-shadow 0.3s;
+}
+.newsletter input[type="email"]:focus {
+	box-shadow: 0 4px 16px rgba(44,62,80,0.16);
+}
+.social {
+	margin: 1rem 0;
+}
+.social a {
+	display: inline-block;
+	margin: 0 0.5rem;
+	transition: transform 0.3s;
+}
+.social a:hover {
+	transform: scale(1.2);
+}
+.social img {
+	filter: grayscale(1) brightness(0.7);
+	transition: filter 0.3s;
+}
+.social a:hover img {
+	filter: none;
+}
+.creditos p {
+	font-size: 0.95rem;
+	color: #eee;
+	margin-top: 1rem;
+}
+
+@media (max-width: 800px) {
+	.carousel {
+		grid-template-columns: 1fr;
+	}
+	.produtos {
+		padding: 0;
+	}
+	.header h1 {
+		font-size: 1.3rem;
+	}
+}
+
